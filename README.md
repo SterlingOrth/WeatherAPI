@@ -1,2 +1,3 @@
 # WeatherAPI
-allows users to view local weather and five day forcast
+
+allows users to view local weather and five day forecast
