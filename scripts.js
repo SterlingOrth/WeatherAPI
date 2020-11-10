@@ -20,10 +20,10 @@ var longitude = "";
 function daily(event) {
     var input = document.getElementById("input").value
 
-    var requestToday = "https://api.openweathermap.org/data/2.5/weather?q=" + input" + "&appid=ca363341750e1c79a85ffc9f4699b38a";
-    var requestFuture = "pro.openweathermap.org/data/2.5/forecast/hourly?q=" + input + "&appid=ca363341750e1c79a85ffc9f4699b38a";
+    // var requestToday = "https://api.openweathermap.org/data/2.5/weather?q=" + input + "&appid=ca363341750e1c79a85ffc9f4699b38a";
+    // var requestFuture = "https://api.openweathermap.org/data/2.5/forecast?q=" + input + "&appid=ca363341750e1c79a85ffc9f4699b38a";
 
-    // 
+    // Grab info from object and store to variable, then append data.name
 
 
     event.preventDefault ()
